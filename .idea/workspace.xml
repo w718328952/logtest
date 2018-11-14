@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c121d171-45c0-40d7-9606-4637598f6e7d" name="Default" comment="Add new function">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot_4_wave_v1.0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/power_test_v3.0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_design_v1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_design_v1.0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_design_v3.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_design_v3.0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/power_test_v1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/power_test_v1.0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/power_test_v2.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/power_test_v2.0.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="11.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="power_test_v2.0.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/power_test_v2.0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#79#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="power_test_v3.0.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/power_test_v3.0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#116#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mplCanvasWrapper1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log_test/mplCanvasWrapper1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3432">
+              <caret line="166" selection-start-line="166" selection-end-line="166" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainwindow.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log_test/mainwindow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>X_MINUTES</find>
+      <find>MAXCOUNTER</find>
+      <find>__exit</find>
+      <find>start</find>
+      <find>releasePlot</find>
+      <find>ax</find>
+      <find>randint</find>
+      <find>Y_MAX</find>
+      <find>startplot</find>
+      <find>startPlot</find>
+      <find>__generating</find>
+      <find>Y_MIN</find>
+      <find>dataX</find>
+      <find>tData</find>
+      <find>generateData</find>
+      <find>_createCanvas</find>
+      <find>MplCanvasWrapper</find>
+      <find>Ui_MainWindow</find>
+      <find>MatplotMenu</find>
+      <find>mplCanvas</find>
+      <find>QSizePolicy</find>
+      <find>QHBoxLayout</find>
+      <find>sizePolicy</find>
+      <find>close</find>
+      <find>setCentralWidget</find>
+      <find>timer</find>
+      <find>timer_plot</find>
+      <find>ipa_list</find>
+      <find>ipa_cont</find>
+      <find>MplCanvas</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/interface_design_v2.0.py" />
+        <option value="$PROJECT_DIR$/interface_design_v3.1.py" />
+        <option value="$PROJECT_DIR$/interface_design_v3.0.py" />
+        <option value="$PROJECT_DIR$/interface_design_title&amp;line_v3.2.py" />
+        <option value="$PROJECT_DIR$/interface_design_grid_v3.1.py" />
+        <option value="$PROJECT_DIR$/../autotest/qt_test_v1.0.py" />
+        <option value="$PROJECT_DIR$/../qi_database/qi_database_v1.0.py" />
+        <option value="$PROJECT_DIR$/../qi_database/qi_database_v2.0.py" />
+        <option value="$PROJECT_DIR$/../pycom发布/pycom.py" />
+        <option value="$PROJECT_DIR$/../pycom发布/mainwindow.py" />
+        <option value="$PROJECT_DIR$/../python_serial/pycom.py" />
+        <option value="$PROJECT_DIR$/../autotest/qt_test_v2.0.py" />
+        <option value="$USER_HOME$/PycharmProjects/qi_database/setup.py" />
+        <option value="$PROJECT_DIR$/interface_design_v1.0.py" />
+        <option value="C:/Program Files (x86)/Python36-32/Lib/site.py" />
+        <option value="$PROJECT_DIR$/plot_4_wave_v1.0.py" />
+        <option value="$PROJECT_DIR$/power_test_v1.0.py" />
+        <option value="$PROJECT_DIR$/功率测试工具V1.1.py" />
+        <option value="$PROJECT_DIR$/功率测试工具V1.0.py" />
+        <option value="$PROJECT_DIR$/MatplotMenu.py" />
+        <option value="$PROJECT_DIR$/hello_world.py" />
+        <option value="$USER_HOME$/Desktop/SerialAndShow/TempControl.py" />
+        <option value="$PROJECT_DIR$/power_test_v2.0.py" />
+        <option value="$PROJECT_DIR$/power_test_v3.1.py" />
+        <option value="$PROJECT_DIR$/11.py" />
+        <option value="$PROJECT_DIR$/power_test_v3.0.py" />
+        <option value="$PROJECT_DIR$/powertest.py" />
+        <option value="$PROJECT_DIR$/mainwindow.py" />
+        <option value="$PROJECT_DIR$/mplCanvasWrapper.py" />
+        <option value="$PROJECT_DIR$/log_test/mplCanvasWrapper1.py" />
+        <option value="$PROJECT_DIR$/log_test/mainwindow.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="git_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\PycharmProjects\git_practice\log_test" />
+      <recent name="D:\Users\PycharmProjects\git_practice" />
+      <recent name="D:\seamus\PycharmProjects\git_practice" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.power_test_v3.0">
+    <configuration name="logtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/log_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/log_test/logtest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mainwindow (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/log_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/log_test/mainwindow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="power_test_v2.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/power_test_v2.0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="power_test_v3.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/power_test_v3.0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="powertest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/powertest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.powertest" />
+      <item itemvalue="Python.logtest" />
+      <item itemvalue="Python.mainwindow (1)" />
+      <item itemvalue="Python.power_test_v3.0" />
+      <item itemvalue="Python.power_test_v2.0" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.power_test_v3.0" />
+        <item itemvalue="Python.power_test_v2.0" />
+        <item itemvalue="Python.mainwindow (1)" />
+        <item itemvalue="Python.logtest" />
+        <item itemvalue="Python.powertest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c121d171-45c0-40d7-9606-4637598f6e7d" name="Default" comment="" />
+      <created>1531124771601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531124771601</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add new code">
+      <created>1531735662598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531735662599</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add new function">
+      <created>1532005345246</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532005345246</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49739584" visible="true" weight="0.18154311" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="3" weight="0.32980332" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36694214" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.3289256" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49848714" weight="0.3289256" />
+      <window_info id="Structure" order="1" sideWeight="0.5026042" side_tool="true" weight="0.25718608" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289256" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39367503" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49924356" weight="0.3289256" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36784142" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49739584" visible="true" weight="0.20365752" />
+      <window_info id="Structure" order="1" sideWeight="0.5026042" side_tool="true" weight="0.25718608" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="R Graphics" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3975771" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289256" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49848714" weight="0.3289256" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add new code" />
+    <MESSAGE value="Add new function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new function" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../qi_database/qi_database_v1.0.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../qi_database/qi_database_v1.0.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/SerialAndShow/TempControl.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/SerialAndShow/TempControl.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/powertest.py</url>
+          <line>486</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/powertest.py</url>
+          <line>479</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/powertest.py</url>
+          <line>305</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/powertest.py</url>
+          <line>308</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="106" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/core/__init__.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/lib/type_check.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/add_newdocs.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/__init__.py" />
+    <entry file="file://D:/360安全浏览器下载/align_ylabels.py" />
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/backends/qt_compat.py" />
+    <entry file="file://$PROJECT_DIR$/interface_design_grid_v3.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/pycom/pycom.py" />
+    <entry file="file://$PROJECT_DIR$/../../python3.6.5/Lib/site-packages/serial/serialwin32.py" />
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/re.py" />
+    <entry file="file://$PROJECT_DIR$/../qi_database/qi_database_v1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#107#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/功率测试工具V1.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="146" column="3" lean-forward="true" selection-start-line="146" selection-start-column="3" selection-end-line="152" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/功率测试工具V1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_design_v1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="10" column="29" selection-start-line="8" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_4_wave_v1.0.py" />
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/cbook/deprecation.py" />
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/threading.py" />
+    <entry file="file://$PROJECT_DIR$/MatplotMenu.py" />
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/artist.py" />
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/figure.py" />
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/backends/backend_qt5agg.py" />
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/backends/backend_qt5.py" />
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/codecs.py" />
+    <entry file="file://$PROJECT_DIR$/power_test_v1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyico.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150" />
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/threading.py" />
+    <entry file="file://$USER_HOME$/Desktop/SerialAndShow/TempControl.py" />
+    <entry file="file://$PROJECT_DIR$/../all/venv/Lib/site-packages/serial/serialwin32.py" />
+    <entry file="file://$PROJECT_DIR$/power_test_v3.1.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/axes/_axes.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/figure.py" />
+    <entry file="file://$PROJECT_DIR$/../all/venv/Lib/site-packages/serial/tools/list_ports_windows.py" />
+    <entry file="file://$PROJECT_DIR$/../all/venv/Lib/site-packages/serial/tools/list_ports_common.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py" />
+    <entry file="file://$PROJECT_DIR$/interface_design_v2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_design_v3.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../matplot_test/Ui_MplMainWindow.py" />
+    <entry file="file://$PROJECT_DIR$/../matplot_test/Code_MplMainWindow.py" />
+    <entry file="file://$PROJECT_DIR$/hello_world.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="98" column="19" lean-forward="true" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/enum.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/backends/backend_qt5agg.py" />
+    <entry file="file://$PROJECT_DIR$/mainwindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/powertest.py" />
+    <entry file="file://$PROJECT_DIR$/mplCanvasWrapper.py" />
+    <entry file="file://$PROJECT_DIR$/log_test/mplCanvasWrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2475">
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_test/logtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="518" selection-start-line="518" selection-end-line="518" />
+          <folding>
+            <element signature="e#0#114#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power_test_v2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#79#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_test/mplCanvasWrapper1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3432">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_test/mainwindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power_test_v3.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#116#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

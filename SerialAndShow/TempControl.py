@@ -1,17 +1,10 @@
-"""
-Author:Seamus
-Last edit:July 2018
-Function:plot a picture
-Vision:V2.0
-
-"""
 import sys
 import numpy
 import random
 import serial
 import time
 from PyQt5 import QtWidgets
-from matplotlib.ticker import MultipleLocator
+from matplotlib.ticker import  MultipleLocator
 import threading
 import matplotlib.ticker as ticker
 from datetime import datetime
@@ -19,14 +12,12 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qt5 import NavigationToolbar2QT as NavigationToolbar
 import matplotlib.pyplot as plt
 from matplotlib.dates import date2num
-import matplotlib.dates as mdate
 import numpy as np
 from matplotlib.figure import Figure
 from PyQt5 import QtGui
 
-
-ser = serial.Serial
-ser.baudrate = 256000
+ser = serial.Serial()
+ser.baudrate = 115200
 ser.port = 'COM5'
 print(ser)
 ser.open()
@@ -36,35 +27,23 @@ class MplCanvas(FigureCanvas):
     def __init__(self):
         self.fig = Figure()
         self.ax = self.fig.add_subplot(111)
-        self._Font = {
-            'family': 'SimHei',
-            'weight': 'bold',
-            'size': 15}
         FigureCanvas.__init__(self, self.fig)
-        FigureCanvas.setSizePolicy(self, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        # FigureCanvas.setSizePolicy(self, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Expanding)
         FigureCanvas.updateGeometry(self)
         self.curveObj = None # draw object
 
     def plot(self, datax, datay):
         if self.curveObj is None:
             #create draw object once
-            self.curveObj = self.ax.plot_date(np.array(datax), np.array(datay), 'bo-')
+            self.curveObj, = self.ax.plot_date(np.array(datax), np.array(datay),'bo-')
         else:
             #update data of draw object
-            # self.curveObj.set_data(np.array(datax), np.array(datay))
-            self.curveObj = self.ax.plot_date(np.array(datax), np.array(datay), 'bo-')
+            self.curveObj.set_data(np.array(datax), np.array(datay))
             #update limit of X axis,to make sure it can move
-            # print(datax)
-            self.ax.set_title('电压测试曲线图', fontdict=self._Font)
-            self.ax.set_xlabel("时间(\"年-月-日 小时:分:秒\")", fontdict=self._Font)
-            self.ax.set_ylabel("价格($)", fontdict=self._Font)
-            self.ax.xaxis.set_major_formatter(mdate.DateFormatter('%H:%M:%S'))  # 设置时间标签显示格式
-            self.ax.xaxis.grid(True, which='major')  # x坐标轴的网格使用主刻度
-            self.ax.yaxis.grid(True, which="major")
 
-            self.ax.set_xlim(min(datax), max(datax))
-            self.ax.set_ylim(min(datay), max(datay))
-            self.ax.yaxis.set_major_formatter(ticker.FormatStrFormatter('%.1f'))
+            self.ax.set_xlim(datax[0], datax[-1])
+            self.ax.set_ylim(111.0, 111.4)
+            self.ax.yaxis.set_major_formatter(ticker.FormatStrFormatter('%.6f'))
             # ymajorLocator = MultipleLocator(1.0)
             # self.ax.yaxis.set_major_locator(ymajorLocator)
 
@@ -133,7 +112,7 @@ class Window(QtWidgets.QWidget):
 
 
     def getdata(self):
-        return numpy.array([i for i in range(100)])
+        return numpy.array([i for i in range (100)])
 
     def home(self):
         self.toolbar.home()
@@ -147,40 +126,19 @@ class Window(QtWidgets.QWidget):
     def startplot(self):
         ''' plot some random stuff '''
         # data = self.getdata()
-        self.tData = threading.Thread(name="dataGenerator", target=self.generateData)
+        self.tData = threading.Thread(name = "dataGenerator",target=self.generateData)
         self.tData.start()
 
     def generateData(self):
-        # while 1:
-        #       s = ser.readline(50)
-        #       rx_name = s.decode('utf-8').split('=')[0]
-        #       print(rx_name)
-        #       # print(float(s))
-        #       if rx_name == ' The AD_value is: \r\n':
-        #            print(rx_name)
-        #       elif rx_name == '\r\n':
-        #            print(rx_name)
-        #       else:
-        #            newTime = date2num(datetime.now())
-        #            # print(newTime)
-        #            self.dataX.append(newTime)
-        #            self.dataY.append(float(s.decode('utf-8').split('=')[-1].split(' ')[1]))
-        #            print(s.decode('utf-8').split('=')[-1].split(' ')[1])
-        #            self.canvas.plot(self.dataX, self.dataY)
-        #       # time.sleep(1)
-        #
-        for j in range(2):
-            y = [2.1, 3.2, 2.4, 1.9, 2, 2.4]
-            for i in range(0, len(y)):
-                ydata = float(y[i])
-                newTime = date2num(datetime.now())
-
-                # print(newTime)
-                self.dataX.append(newTime)
-                self.dataY.append(ydata)
-                # print(s.decode('utf-8').split('=')[-1].split(' ')[1])
-                self.canvas.plot(self.dataX, self.dataY)
-                time.sleep(1)
+        while 1:
+              s = ser.read(10)
+              print(s)
+              # print(float(s))
+              newTime = date2num(datetime.now())
+              self.dataX.append(newTime)
+              self.dataY.append(float(s))
+              self.canvas.plot(self.dataX, self.dataY)
+              # time.sleep(1)
 
 
     def clear(self):

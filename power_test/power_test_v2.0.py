@@ -11,7 +11,7 @@ import random
 import serial
 import time
 from PyQt5 import QtWidgets
-from matplotlib.ticker import MultipleLocator
+from matplotlib.ticker import  MultipleLocator
 import threading
 import matplotlib.ticker as ticker
 from datetime import datetime
@@ -24,10 +24,9 @@ import numpy as np
 from matplotlib.figure import Figure
 from PyQt5 import QtGui
 
-
-ser = serial.Serial
+ser = serial.Serial()
 ser.baudrate = 256000
-ser.port = 'COM5'
+ser.port = 'COM3'
 print(ser)
 ser.open()
 print(ser.is_open)
